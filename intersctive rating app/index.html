@@ -43,12 +43,16 @@
         <button class="select-button">5</button>
       </div>
       <div>
-        <button class="submit-button">SUBMIT</button>
+        <button id="submit" class="submit-button">SUBMIT</button>
       </div>
     </div>
-    <div class="thank-you-body">
+    <div class="thank-you-body hide">
       <img src="images/illustration-thank-you.svg" alt="thank you icon" />
-      <p id="result-rating">You selected rating out of 5</p>
+      <p id="result-rating">
+        You selected
+        <span id="rate-number">0</span>
+        out of 5
+      </p>
 
       <div id="thank-you-p">
         <h1>Thank you!</h1>
@@ -58,8 +62,9 @@
         </p>
       </div>
       <div>
-        <!-- <button class="submit-button">Rate Again</button> -->
+        <button id="rate" class="submit-button">Rate us again</button>
       </div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>
