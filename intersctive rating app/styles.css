@@ -119,7 +119,7 @@ button {
   font-size: 15px;
 }
 
-.thank-you-body img {
+.thank-you-body #thankyou-icon {
   display: block;
   margin: 0rem auto 2rem;
 }
